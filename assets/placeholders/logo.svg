@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Logo (placeholder)">
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="#FFFFFF" stroke="#0F1D38" stroke-width="6"/>
+  <g stroke="#C1121F" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(28 28) scale(3)">
+    <circle cx="6" cy="6" r="3" fill="#C1121F" stroke="none"/>
+    <circle cx="6" cy="18" r="3" fill="#C1121F" stroke="none"/>
+    <line x1="20" y1="4" x2="8.12" y2="15.88"/>
+    <line x1="14.47" y1="14.48" x2="20" y2="20"/>
+    <line x1="8.12" y1="8.12" x2="12" y2="12"/>
+  </g>
+</svg>
