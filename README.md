@@ -1,81 +1,83 @@
-# Barbería Elegance Club — Barbershop Website Template
+# Barbería Elegance Club — Sitio web de barbería
 
-A premium multi-page barbershop website template built with vanilla HTML, CSS and JavaScript — classic barber-pole tricolor palette: white, navy and red. Ready to adapt for a portfolio or a real barbershop.
+Soy Gianfranco Jaque y este es un sitio web de barbería que armé como plantilla para mi portafolio. Está hecho con HTML, CSS y JavaScript puro: sin frameworks, sin build tools, sin librerías. Nada más que lo que ves.
+
+El diseño sigue la paleta clásica de barbería: blanco, azul marino y rojo.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript ES6+](https://img.shields.io/badge/JavaScript%20ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## Features
+## Qué incluye
 
-- Multi-page navigation (Home, Services, Gallery, Booking).
-- Booking by WhatsApp API: the form builds a personalized `wa.me` message.
-- Interactive gallery with category filters (Cuts, Beards, Designs).
-- Loyalty card simulator: 9 stamps, 10th cut free, with confetti modal.
-- Fully responsive design with mobile hamburger menu.
-- Scroll-reveal animations that respect `prefers-reduced-motion`.
-- Accessible markup (ARIA labels, keyboard-friendly).
+- Cuatro páginas completas: Inicio, Servicios, Galería y Reserva.
+- Reservas por WhatsApp: el formulario arma el mensaje solo, usando la API de `wa.me`.
+- Galería con filtros por categoría (Cortes, Barbas, Diseños).
+- Tarjeta de fidelidad simulada: 9 sellos y el décimo corte es gratis, con confeti al completarla.
+- Diseño responsive: en celular el menú se convierte en hamburguesa.
+- Animaciones al hacer scroll que respetan la preferencia de "movimiento reducido".
+- HTML semántico y accesible (roles ARIA, navegación con teclado).
 
-## Tech Stack
+## Tecnologías
 
-- **HTML5** — semantic, accessible page structure.
-- **CSS3** — custom properties (design tokens), no framework.
-- **Vanilla JavaScript ES6+** — no build tools or dependencies.
+- HTML5
+- CSS3 con variables de diseño (design tokens), sin framework
+- JavaScript ES6+ puro
 
-## Live Demo
+## Demo en vivo
 
-**Live Demo:** <https://demo--barberia.pages.dev/>
+**https://demo--barberia.pages.dev/**
 
-> Deployed on **Cloudflare Pages** (connected to the GitHub repo — every push to `main` redeploys automatically). If you later add a custom domain, replace this link with it.
+Publicado en Cloudflare Pages conectado a este repositorio: cada vez que hago push a `main`, el sitio se actualiza solo.
 
-## Screenshots
+## Capturas
 
-| Home | Services |
+| Inicio | Servicios |
 | --- | --- |
-| ![Home](screenshots/home.png) | ![Services](screenshots/services.png) |
+| ![Inicio](screenshots/home.png) | ![Servicios](screenshots/services.png) |
 
-| Gallery | Booking |
+| Galería | Reserva |
 | --- | --- |
-| ![Gallery](screenshots/gallery.png) | ![Booking](screenshots/booking.png) |
+| ![Galería](screenshots/gallery.png) | ![Reserva](screenshots/booking.png) |
 
-## Getting Started
+## Cómo usarla
 
 ```bash
 git clone https://github.com/GianJaque/Demo-Barberia.git
 cd Demo-Barberia
 ```
 
-Then open `index.html` directly in your browser. For a smoother workflow you can also serve the folder with the VS Code Live Server extension (right-click `index.html` → "Open with Live Server").
+Abrí `index.html` en tu navegador y listo. Si querés trabajar más cómodo, instalá la extensión Live Server de VS Code y abrí el archivo con "Open with Live Server".
 
-## Customization
+## Cómo adaptarla
 
-This template is meant to be adapted. Here is exactly where to change the common items:
+La idea es que sirva como base para una barbería real. Los puntos a cambiar:
 
-- **WhatsApp number:** `script.js` → the `WHATSAPP_NUMBER` constant. Use international format, no `+` or spaces.
-- **Brand name:** search and replace `Barbería Elegance Club` across the HTML files (titles, brand links, alt texts, footer copyright).
-- **Map embed:** `reserva.html` → replace the map placeholder block with the Google Maps embed of your location.
-- **Hero image:** replace `assets/placeholders/hero.svg` with your own photo (keep the reference in `styles.css`).
-- **Gallery / service photos:** replace `assets/placeholders/corte.svg`, `barba.svg` and `diseno.svg` with your real photos (update the `src` attributes in `galeria.html` and `servicios.html`).
-- **Logo & favicon:** replace `assets/placeholders/logo.svg` and `assets/placeholders/favicon.svg`.
-- **Social links:** the `#` placeholders in each footer.
+- **Número de WhatsApp:** en `script.js`, la constante `WHATSAPP_NUMBER` (formato internacional, sin `+` ni espacios).
+- **Nombre de la marca:** buscá y reemplazá `Barbería Elegance Club` en los HTML (títulos, links, footer).
+- **Mapa:** en `reserva.html`, reemplazá el bloque de mapa por el embed de Google Maps de tu local.
+- **Imagen del hero:** reemplazá `assets/placeholders/hero.svg` por tu foto (la referencia está en `styles.css`).
+- **Fotos de galería y servicios:** reemplazá `corte.svg`, `barba.svg` y `diseno.svg` por tus fotos, y actualizá el `src` en `galeria.html` y `servicios.html`.
+- **Logo y favicon:** reemplazá `assets/placeholders/logo.svg` y `favicon.svg`.
+- **Redes sociales:** los `#` que están en el footer de cada página.
 
-## Project Structure
+## Estructura del proyecto
 
 ```
 .
-├── index.html        # Home: hero, highlights, loyalty card
-├── servicios.html    # Services & prices
-├── galeria.html      # Gallery with filters
-├── reserva.html      # Booking form + info + map placeholder
-├── styles.css        # Design system (custom properties)
-├── script.js         # Interactivity (WhatsApp, gallery, loyalty, reveal)
-└── assets/           # Placeholder SVGs + folder structure for your images
+├── index.html        # Inicio: hero, beneficios, tarjeta de fidelidad
+├── servicios.html    # Servicios y precios
+├── galeria.html      # Galería con filtros
+├── reserva.html      # Formulario de reserva + info + mapa
+├── styles.css        # Sistema de diseño (variables)
+├── script.js         # Interactividad (WhatsApp, galería, fidelidad, scroll)
+└── assets/           # SVG de ejemplo + carpetas para tus imágenes
 ```
 
-## Privacy Note
+## Nota sobre los datos
 
-All contact data in this repository — phone number, address, map embed, and social links — is fictional placeholder content and is safe to publish publicly. Replace it with your own real data before going live. All real client photos were removed from the repository and replaced with local placeholder SVGs; add your own images before going live.
+Todo lo que aparece en el repo (teléfono, dirección, mapa y redes) es contenido ficticio de ejemplo, así que se puede publicar sin problema. Antes de ir a producción reemplazalo por tus datos reales. Las fotos reales de clientes se sacaron del repo y se reemplazaron por SVGs locales; sumá tus propias imágenes antes de publicar.
 
-## License
+## Licencia
 
-Free to use and adapt for personal or commercial projects.
+Libre de usar y adaptar, tanto para proyectos personales como comerciales.
