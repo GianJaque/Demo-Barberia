@@ -24,9 +24,9 @@ A premium multi-page barbershop website template built with vanilla HTML, CSS an
 
 ## Live Demo
 
-**Live Demo:** *coming soon (Cloudflare Pages)*
+**Live Demo:** <https://demo--barberia.jaquehinostrozag.workers.dev/>
 
-> The site is not deployed yet. After your first Cloudflare Pages deploy, replace this line with the real URL (it follows the `<project-name>.pages.dev` pattern). Don't share the repo as "live" until that link works.
+> Deployed on **Cloudflare Workers** (static assets). The `jaquehinostrozag` part is the Cloudflare account subdomain — every deployment follows the `<project>.<account>.workers.dev` pattern. If you later add a custom domain, replace this link with it.
 
 ## Screenshots
 
