@@ -30,14 +30,13 @@ A premium multi-page barbershop website template built with vanilla HTML, CSS an
 
 ## Screenshots
 
-Add screenshots of the site so recruiters can see the result at a glance:
+| Home | Services |
+| --- | --- |
+| ![Home](screenshots/home.png) | ![Services](screenshots/services.png) |
 
-- `screenshots/home.png` — landing page (hero + loyalty card)
-- `screenshots/services.png` — services & prices
-- `screenshots/gallery.png` — gallery with filters
-- `screenshots/booking.png` — booking form + map placeholder
-
-To capture: open each page in your browser and take a screenshot (Windows: `Win + Shift + S`), then save the images in a `screenshots/` folder at the repository root.
+| Gallery | Booking |
+| --- | --- |
+| ![Gallery](screenshots/gallery.png) | ![Booking](screenshots/booking.png) |
 
 ## Getting Started
 
